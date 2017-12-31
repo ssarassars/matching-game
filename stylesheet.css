@@ -1,0 +1,44 @@
+body{
+    background-color : #333333;
+}
+
+h1{
+	color:white;
+    text-align: center; 
+}
+div.card{
+	vertical-align:top;
+	display:inline-block;
+	box-shadow:2px 2px blue;
+	border:4px solid white;
+	border-radius:9px;
+	padding:9px;
+	width:50px;
+	height:50px;
+	margin:6px;
+}
+
+table#gameboard{
+	margin: auto;
+}
+
+span{
+	vertical-align: middle;
+	justify-content: center;
+	color : black;
+	font-size : 45px;
+	font-weight : bold;
+	display : flex;
+}
+.unmatch{
+	background-color : darkblue;
+}
+
+.match{
+	background-color : white;
+}
+
+.open{
+	background-color : orange;
+}
+
